@@ -32,7 +32,61 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.div_developer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  align-items: center;
+}
+
+.form_developer {
+  border: 3px solid #000;
+  border-radius: 10px;
+  width: 450px;
+  height: 220px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  background-color: rgba(88, 93, 107, 0.616);
+}
+
+.btm_developer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 450px;
+  align-items: center;
+  font-size: larger;
+}
+
+.developer{
+  margin : 10px 10px 10px 10px;
+
+  width: 300px;
+  align-items: center;
+  font-size: smaller;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #000;
+  Border-radius: 10px;
+  background-color: rgba(88, 93, 107, 0.616);
+}
+.LIST{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+ 
 }
